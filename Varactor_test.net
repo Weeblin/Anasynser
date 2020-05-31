@@ -1,0 +1,13 @@
+* C:\eee1\Asynth\Anasynser\Varactor_test.asc
+D1 N002 N001 KV1471
+V1 N001 N002 2
+R1 N003 0 3831
+V2 N001 0 SINE(0 5 261)
+C1 N001 N003 1µ
+R2 N002 N003 50
+.model D D
+.lib C:\Users\68791\Documents\LTspiceXVII\lib\cmp\standard.dio
+;dc V1 0 5 0.1
+.tran 10ms
+.backanno
+.end
