@@ -1,0 +1,14 @@
+* C:\eee1\Asynth\Anasynser\Pure_PWL_input.asc
+V1 N002 0 PULSE(0 5 1 0 0 1)
+R1 N003 0 610
+R2 N004 0 610
+C1 0 N004 1µ
+C2 N004 0 1µ
+M1 N001 N002 N003 N003 STW11NM80
+V2 N001 0 10
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\68791\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 5s
+.backanno
+.end

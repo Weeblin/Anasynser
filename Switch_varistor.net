@@ -1,0 +1,8 @@
+* C:\eee1\Asynth\Anasynser\Switch_varistor.asc
+A1 N002 N002 N002 N002 N002 N002 N003 N002 VARISTOR
+V1 N002 0 5
+V2 NC_05 NC_06 10
+R1 N003 0 1k
+.dc V1 0 50 0.1
+.backanno
+.end
