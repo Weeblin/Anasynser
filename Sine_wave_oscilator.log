@@ -1,0 +1,7 @@
+Circuit: * C:\eee1\Asynth\Anasynser\Sine_wave_oscilator.asc
+
+WARNING: Node OUTPUT is floating.
+
+WARNING: Less than two connections to node OUTPUT.  This node is used by C3.
+Direct Newton iteration for .op point succeeded.
+Fatal Error: Could not open file "C:\eee1\Asynth\Anasynser\Sine_wave_oscilator.op.raw" for output
