@@ -1,9 +1,0 @@
-* C:\eee1\Asynth\Anasynser\Draft2.asc
-S1 OUT N001 N002 0 MySwitch
-V1 N002 0 PWL(0 -5 5 5 10 5)
-V2 N001 0 PWL(0 0 10 10)
-R1 OUT 0 1k
-.model MySwitch SW(Ron=0.1 Roff=1Meg Vt=3 Vh=-0.01)
-.tran 10s
-.backanno
-.end
