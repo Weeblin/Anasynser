@@ -1,0 +1,19 @@
+Version 4
+SymbolType CELL
+RECTANGLE Normal -64 -88 64 48
+WINDOW 0 -1 -88 Bottom 2
+PIN 0 48 VLEFT 8
+PINATTR PinName GND
+PINATTR SpiceOrder 1
+PIN 64 -32 RIGHT 8
+PINATTR PinName Square
+PINATTR SpiceOrder 2
+PIN -64 -64 LEFT 8
+PINATTR PinName Tunning
+PINATTR SpiceOrder 3
+PIN -48 48 VLEFT 8
+PINATTR PinName V+
+PINATTR SpiceOrder 4
+PIN 48 48 VLEFT 8
+PINATTR PinName V-
+PINATTR SpiceOrder 5
